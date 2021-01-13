@@ -1,0 +1,419 @@
+@charset "UTF-8";
+/* CSS Document */
+
+section{
+	max-width:100%;
+	text-align:center;
+}
+
+.center{
+	margin: 0 auto 0 auto;
+	width : 50%;
+}
+
+.home-content{
+	text-align: center;
+	margin-top:30%;
+}
+
+.page-title{
+	font-size:4rem;
+	color:#63695d
+}
+
+
+header a {
+	display:flex;
+	justify-content: flex-end;
+	color:#fff6e5;
+}
+
+.header-container{
+	display:flex;
+	justify-content: flex-start;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	background-image: url(../images/body-bg.png);
+}
+html, body {
+	height: 100%;
+}
+header{
+	width: 100%;
+	background-color: #38b6ab;
+	background-image: url(../images/header-bg.png);
+	background-position: 50% 50%;
+	border-top: #38b6ab 10px solid;
+	position: relative;
+	
+}
+.header-contents{
+	box-sizing:border-box;
+	max-width: 960px;
+	margin: 0 auto;
+	min-height: 100px;
+	background-image: url(../images/header-logo.png);
+	background-repeat: no-repeat;
+	background-position: 10px 50%;
+}
+
+
+.header-contents h1,
+.header-contents h2{
+	margin: 0;
+	color: #fff6e5;
+	line-height: 1;
+}
+.header-contents h1{
+	padding: 30px 0 10px 85px;
+	font-size: 24px;
+}
+.header-contents h2{
+	padding: 0 0 0 85px;
+	font-size: 14px;
+	font-weight: normal;
+}
+.main-wrapper{
+	position: relative;
+	box-sizing:border-box;
+	max-width: 960px;
+	margin: 0 auto ;
+	padding:30px 30px;
+	background-color: #c5f3a8;
+	border-left: #dadada 1px solid;
+	border-right: #dadada 1px solid;
+	min-height: 80%;
+	min-height: calc(100% - 200px);
+
+}
+footer{
+	box-sizing:border-box;
+	max-width: 960px;
+	margin: 0 auto 10px auto;
+	padding:15px 30px;
+	background-color: #38b6ab;
+	border: #dadada 1px solid;
+	border-radius: 0 0 10px 10px;
+	color: #fff6e5;
+	font-size: 12px;
+	text-align: right;
+}
+
+.button{
+	border:none;
+	font-size:1.375rem;
+	background:#38b6ab;
+	color:#fff6e5;
+	border-radius: 10px;
+	padding:18px 32px;
+	border-bottom: 5px solid #267a73;
+}
+.button:hover{
+	background-color:#2b837b;
+}
+
+.title-button{
+	border:none;
+	font-size:1rem;
+	background:#38b6ab;
+	color:#fff6e5;
+	border-radius: 10px;
+	padding:7px 20px;
+	border-bottom: 5px solid #267a73;
+	
+}
+.title-button:hover{
+	margin-top: 3px;
+  	background-color:#38b6ab;
+	border-bottom: 2px solid #267a73;
+}
+
+/* mondai.php */
+.container{
+	display:flex;
+	justify-content: space-around;
+}
+
+.item{
+	color:#fff6e5;
+}
+
+.item_a{
+	font-size:2.9rem;
+	border-radius:50%;
+	background:#38b6ab;
+	color:#fff6e5;
+	margin:10px;
+	padding:10px;
+	border-bottom: 5px solid #267a73;
+}
+
+.item_b{
+	font-size:2.9rem;
+	border-radius:50%;
+	background:#38b6ab;
+	color:#fff6e5;
+	margin:10px;
+	padding:10px;
+	border-bottom: 5px solid #267a73;
+}
+.item_b:hover{
+	margin-top: 12px;
+  	background-color:#38b6ab;
+	border-bottom: 2px solid #267a73;
+}
+
+
+.mondai{
+	font-size: 3rem;
+	color:#63695d;
+	font-weight: bold;
+}
+
+.tomei{
+	visibility: hidden;
+}
+
+/*.prt p{
+	display:flex;
+	justify-content: space-around;
+}*/
+
+/* 戻る追加ボタン大きさ調整 */
+.back_botton{
+	width:45px;
+	background-color:#38b6ab;
+	border-bottom: 5px solid #267a73;
+}
+.back_botton:hover{
+	margin-top: 3px;
+  	background-color:#38b6ab;
+	border-bottom: 2px solid #267a73;
+}
+
+.add_botton{
+	width:45px;
+	background-color:#38b6ab;
+	border-bottom: 5px solid #267a73;
+}
+.add_botton:hover{
+	margin-top: 33px;
+  	background-color:#38b6ab;
+	border-bottom: 2px solid #267a73;
+}
+
+.form_botton{
+	border:none;
+	background-color:#ebaa4f;
+	border-bottom: 5px solid #9e7235;
+}
+.form_botton:hover{
+	margin-top: 33px;
+	background-color:#ebaa4f;
+	border-bottom: 2px solid #9e7235;
+}
+
+
+.setting_botton{
+	display:flex;
+	font-size:1.375rem;
+	color:#fff6e5;
+	border-radius: 10px;
+	padding:18px 32px;
+	margin-left:30px;
+	margin-bottom:30px;
+
+}
+
+/*ipadでのinputボタン修正*/
+input[type="submit"] {
+	-webkit-appearance: none;
+	border-radius: 10;
+}
+
+input[type="button"] {
+	-webkit-appearance: none;
+	border-radius: 10;
+}
+
+
+
+
+/* 設定問題ボックス */
+.mondai_mainbox {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin:-522px auto auto 170px ;
+}
+.mondai_box {
+	width: 200px;
+	padding: 0;
+	margin: 0 20px;
+	margin-bottom: 30px;
+}
+.gazou_name {
+	width: 200px;
+	margin: 0;
+	padding: 0;
+	font-size: 20px;
+}
+
+/*ラジオボタン大きさ*/
+.gazou_name input{
+	width:15px;
+	height:15px;
+}
+
+/*ページング*/
+.paging{
+	margin-top:-124px;
+	margin-left:125px;
+}
+
+input[type=radio] {
+	-webkit-transform: scale(1.5);
+   transform: scale(1.5);
+   margin-right: 0.5em;
+}
+
+.setting_gazou{
+	width:155px;
+}
+
+/*問題画面画像大きさ*/
+.mondai_gazou {
+	height:240px;
+}
+
+/*設定参照問題画像*/
+.center .home-content img{
+	margin-top:-150px;
+	height:270px;
+}
+
+/*結果画面のbackground*/
+.kekka_background{
+	position: relative;
+	box-sizing:border-box;
+	max-width: 960px;
+	margin: -834px 0 3px 0;
+	padding:0px 60px 90px 60px ;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-left: #dadada 1px solid;
+	border-right: #dadada 1px solid;
+	min-height: 80%;
+	min-height: calc(100% - 200px);
+	top:281px;
+}
+
+/* 追加フォームスタイル */
+.form-style {
+	font-size: 1.5rem;
+	color:#63695d;
+	font-weight: bold;
+	margin-top:-50px;
+}
+input {
+	font-size: 1.5rem;
+	color:#63695d;
+}
+
+
+/* はずれ画面の非表示 */
+#batsu {
+	display: none;
+	
+}
+/* はずれ画面のスタイル　*/
+.batsu_gazou{
+	position: center;
+	width : 500px;
+	margin-left:140px;
+	margin-top:40px;
+	
+}
+.batsu_gamen{
+	margin-left: 212px;
+}
+
+.batsu_kotae{
+	margin-top:-11px;
+	margin-left: auto;
+    margin-right: auto;
+	display:flex;
+	justify-content: space-around;
+	width:449px;
+	
+}
+
+/* あたり画面の非表示 */
+#maru {
+	display: none;
+	
+}
+/* 正解画面のスタイル */
+img.maru_gazou{
+	position: center;
+	width : 500px;
+	margin-left:140px;
+	margin-top:40px;
+	
+}
+.maru_gamen{
+	margin-left: 212px;
+	margin-bottom:22px;
+}
+
+
+/*追加画面*/
+.add-content{
+	text-align: left;
+	margin-top:-90px;
+	margin-left:100px;
+}
+
+
+
+a{
+	text-decoration: none;
+}
+/*
+a:hover{
+	color: #b04188;
+	text-decoration: underline;
+
+	margin-top:3px;
+	background-color:#38b6ab;
+	border-bottom: 2px solid #267a73;
+}
+*/
+
+
+@media (max-width: 600px){
+	header{
+		background-position: 32% 50%;
+		border-top: #20567d 5px solid;
+	}
+	.header-contents{
+		min-height: 60px;
+		background-size: 40px 40px;
+		background-position: 10px 50%;
+	}
+	.header-contents h1{
+		padding: 15px 0 5px 55px;
+		font-size: 16px;
+	}
+	.header-contents h2{
+		padding: 0 0 0 55px;
+		font-size: 12px;
+	}
+}
+
+
+
+

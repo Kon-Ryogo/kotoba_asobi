@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <meta http-equiv="x-ua-compatible" content="IE=edge">
+        <title>ことばあそび</title>
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <header>
+            <div class="header-contents item">
+            <h1>ことばあそび</h1>
+        </div>
+        </header>
+        
+        <div class="main-wrapper">
+            <a class="title-button" onclick="sound_push();href_sound('setting.php')">設定</a>
+            <div class="center">
+                <section>
+                    <div class="home-content">
+                        <h1 class="page-title">ことばあそび</h1>
+                        <a class="button" onclick="sound_push();href_sound('mondai.php')">スタート</a>
+                    </div>
+                </section>
+            </div>
+        </div><!-- /.main-wrapper -->
+
+        <footer>日本工業大学　先進工学部　情報メディア工学科　シュガーマンズ</footer>
+        
+        <script src="script.js"></script>
+        <audio id="push" preload="auto">
+            <source src="sounds/push.mp3" type="audio/mp3">
+            <source src="sounds/push.wav" type="audio/wav">
+        </audio>
+    
+    </body>
+</html>
